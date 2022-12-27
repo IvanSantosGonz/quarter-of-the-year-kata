@@ -18,4 +18,8 @@ void main() {
   test('for month 11 the output quarter should be 4', () {
     quarter(11).shouldBe(4);
   });
+
+  test('for month 3 the output quarter should be 1', () {
+    quarter(3).shouldBe(1);
+  });
 }
