@@ -8,14 +8,14 @@ void main() {
   });
 
   test('for month 1 the output quarter should be 1', () {
-    expect(quarter(1), 1);
+    quarter(1).shouldBe(1);
   });
 
   test('for month 4 the output quarter should be 2', () {
-    expect(quarter(4), 2);
+    quarter(4).shouldBe(2);
   });
 
   test('for month 11 the output quarter should be 4', () {
-    expect(quarter(11), 4);
+    quarter(11).shouldBe(4);
   });
 }
