@@ -14,4 +14,8 @@ void main() {
   test('for month 4 the output quarter should be 2', () {
     expect(quarter(4), 2);
   });
+
+  test('for month 11 the output quarter should be 4', () {
+    expect(quarter(11), 4);
+  });
 }
