@@ -7,7 +7,11 @@ void main() {
     expect(() => quarter(0), throwsArgumentError);
   });
 
-  test('for month 1 the output should be 1', () {
+  test('for month 1 the output quarter should be 1', () {
     expect(quarter(1), 1);
+  });
+
+  test('for month 4 the output quarter should be 2', () {
+    expect(quarter(4), 2);
   });
 }
